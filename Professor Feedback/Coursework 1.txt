@@ -1,0 +1,61 @@
+General Feedback for the cohort:
+
+Overall, this coursework was handled well by the majority, with the average mark being 77%.
+
+
+Most people did very well in exercise one, with the biggest issues being a lack of comments, or not reasoning about the probability thoroughly enough.
+Though it should be noted that was a number of solutions that featured extraneous calculations within the while loop.
+The preamble in this section often was brief, and this was fine. There is not a lot to say, after all.
+It would have been good to see more use of efficient string creation, and limiting output to a single constructed printline.
+Arrays are often useful here, and some used them very effectively.
+In exercise 2, many stuck with a do while loop, when switching to a while loop would allow a more elegant incorporation of the ahead bias and 1/8 chance.
+There was a subset of students that left in the pure random choice from exercise 1, resulting in students overriding their own ahead bias and 1/8 chance.
+Some solutions attempted a heavily mathematical solution, at the cost of readability and not gaining any significant computational advantage.
+Few people realised you could either add a random number to AHEAD or use an array, to eliminate the need for an if statment.
+Again, in exercise 2, there was a lack of comments. The preamble often focused on the probability, but then did not talk about other design choices in enough detail.
+For exercise 3, many people did not talk about their testing, despite it being the only way to verify that exercise 3 met the specification.
+While we did not explictly ask you to talk about testing, you are asked about how your solution achieved the specification and in the case where a robot is exhibiting clearly bad behaviour, testing is your only justification for what is being presented to the customer.
+This exercise results in a broken robot, that cannot find the target, so verifying that it behaves as requested through testing is a very strong, and necessary, point of discussion when justifying your submission.
+The best control headers made use of arrays or arraylists of options in order to minimise the need to exhaustively check every situation.
+The best look headings took advantage of the relationship between absolute and relaitonal directions to calculate the direction to look in a single line.
+Only a small set of students used hard-coded values instead of ENUMS, but there were a number of submissions with compilation issues.
+Most commonly, students did not rename their class files, resulting in compilation issues.
+------------------------
+Feedback for student 5679421 for coursework 1 of CS118
+
+
+Exercise 1:
+	No Collisions : 1st
+	Logging Output : High 1st
+	Assessment of Probability : High 1st
+	Comments : 1st
+	Good Coding Practices : 2:1
+	Preamble : 1st
+	Ex 1 Mark : 84
+	Exercise 1 Comments : While loop used effectively. Good string construction. Student correctly reasoned about probability. Indentation is inconsistent.  Does not follow Java variable naming convention.
+
+Exercise 2:
+	Balanced Probabilities : 1st
+	AHEAD Bias : Fail
+	1/8 Change : 3rd
+	Comments : 1st
+	Good Coding Practices : 2:1
+	Preamble : 1st
+	Ex 2 Mark : 51
+	Exercise 2 Comments : AHEAD Bias not set to default. Chance to choose randomly is not 1 in 8. Coding standards / structure needs improvement.
+
+Exercise 3:
+	isTargetNorth/East : 1st
+	headingLook method : 2:1
+	headingController method : 1st
+	Use of Controller : High 1st
+	ControlTest use : 2:1
+	Explanation of Testing : 2:1
+	Comments : 1st
+	Good Coding Practices : 2:2
+	Modularisation : 1st
+	Assessment of Specification : High 1st
+	Ex 3 Mark : 74
+	Exercise 3 Comments : Target is sensed correctly. Good integration of controller into ControlRobot. ControlTest has some issues. Coding standards / structure needs improvement. Indentation is inconsistent. Good understanding of the flaws in the specification.
+
+ Final Mark: 71

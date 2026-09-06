@@ -1,0 +1,64 @@
+Feedback for student 5679421 for coursework 2 of CS118
+General Feedback:
+
+Overall, this coursework was handled well by the majority, with the average mark being 68.6.
+
+
+A number of people still used the hard-coded values represented by the ENUMS - despite being warned to not do so.
+Another similar issue included students clearly not testing their solution on the DCS machines, as they have used the incorrect JDK.
+Exercise 1 had many areas where the code could be improved.
+Junctions and crossroads could be handled within the same method.
+You can also make a generic method for counting the different types of spaces - many people made several methods that are exactly the same.
+Instead, consider making a method that takes a type of square as a parameter, and then counts that type of square.
+Many people did not use dynamic data types, such as making use of an array list or a stack object.
+The best method for storing junction information is to make a junctionRecorder type object and store an arraylist (or consider how to re-size the array) or stack of them.
+
+Exercise 2 required a stack-based approach, some solutions kept storing X and Y.
+Some students used an array like a stack, but the best approach is to either build the full data structure or use java's implementation.
+Exercise 3 could be completed using a single if-statement. It just required turning around if encountering a beenbefore in explore mode.
+A more complex solution was also viable, and generally, if the robot performed a systematic search, a good mark for exercise 3 was achieved.
+A few solutions relied too much on random behaviour - if the robot was surrounded by been befores it might fall back on random behaviour. 
+This is unneeded, a proper approach can still systematically search the maze and find a route.
+
+A common issue in the grand finale was not accounting for the robot starting in a corridor.
+This can lead to anything from a minor issue (the robot going doing a single dead end at the start) or a major problem (such as collisions).
+Some robots could only do two runs, the learning run and the perfect run. Any further attempts would break.
+The best robots were capable of multiple perfect runs in a row, as well as learning a new maze without resetting the environment.
+Some solutions implemented a homing style of search in the first run, which is a good improvement.
+Despite discussion and clarification in the lectures, some robots learned over multiple runs, even in prim mazes. 
+There were good approachs to loopy mazes, with many robots being able to solve loopy mazes, even if not optimally.
+Some solutons were over engineered, despite warnings of avoiding this. There is minimal need for a larger number of utility classes and wrappers, as these can obscure functionality.
+Many solutions still lacked sufficient commenting and style.
+Even with substantial preambles - comments and javadocs should be provided to give context and direction to code.
+This is particularly true for the grand finale, where complex code blocks should be explained.
+
+
+A small number of students may experience an issue with their comments, due to a sitebuilder issue that could not be solved. If you feel your feedback is lacking, or absent, and you feel that the above does not cover what you need to know, please email me and I will provide additional feedback as needed. 
+I would also like to encourage you to fill out the survey about the automated marking exercises we provided this year: https://tinyurl.com/mrx2c3zw 
+Even if you did not use the IRIS system, hearing from you about why would be valuable to our project. Thank you in advance!
+
+Exercise 1:
+	Utility methods : 1st
+	Junction data storage : 1st
+	Explorer/Backtrack controls : 1st
+	Complexity analysis : 1st
+	Software engineering : 2:1
+	Ex 1 Mark : 78
+	No location storage : Could use utility methods more effectively. The design of RobotData could be better. Could have used dynamic data types. More modularisation could be included. Could have made use of javadoc style implementation.
+
+Exercises 2 & 3:
+	No location storage : 2:1
+	Loopy mazes : 1st
+	Ex 2 Mark : 74
+	Explorer 2 and 3 Comments : Solution correctly solves all loopy mazes. Code could be improved with better documentation  perhaps Javadoc-style comments.
+
+Grand Finale:
+	Systematic search : 2:1
+	Solves mazes perfectly : 2:1
+	Solves loopy mazes : 2:2
+	Style/Documentation : 2:1
+	Design/Modularity/Engineering : 1st
+	GF Mark : 65
+	GrandFinale Comments : Solves mazes mostly perfectly. Solution solves loopy mazes but not optimally. Modularisation could have been improved.
+
+ Final Mark / 100: 72
